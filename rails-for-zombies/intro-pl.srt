@@ -25,6 +25,7 @@ Ale jest też dosadniejsza odpowiedź.
 00:00:10,010 --> 00:00:12,160
 W świecie praktycznej nauki,
 możemy korzystać z książek
+
 7
 00:00:12,160 --> 00:00:14,360
 jak i z screencast'ów, jednak
@@ -36,9 +37,9 @@ interaktywny.
 
 9
 00:00:15,290 --> 00:00:17,120
-Dajcie spokoj! Przecież to
+Chwila, chwila! Przecież to
 generacja Nintendo.
-// do korekty
+
 10
 00:00:17,120 --> 00:00:19,170
 Dajcie mi cholernego joystick'a.
@@ -55,8 +56,8 @@ Twój komputer do kodowania
 
 13
 00:00:23,380 --> 00:00:26,060
-rails['szyn'], ty prawdopodobnie
-znajdziesz sposob jak to popsuć
+rails, ty prawdopodobnie
+znajdziesz sposób jak to popsuć
 
 14
 00:00:26,060 --> 00:00:27,910
@@ -79,13 +80,13 @@ na głębokie wody.
 
 18
 00:00:32,980 --> 00:00:34,550
-By the time you get
-to the water, you
-// do korekty
+W momencie wejścia do
+wody, powinieneś(-aś)
+
 19
 00:00:34,550 --> 00:00:35,890
-should be booking it.
 // do korekty
+
 20
 00:00:35,890 --> 00:00:37,520
 Ruby on Rails powinno być
@@ -97,8 +98,8 @@ i tęcz, prawda?
 
 22
 00:00:38,840 --> 00:00:41,440
-Dlatego powinnieneś(-aś) przynajmniej
-mieć kolorową tęczę albo
+Dlatego powinieneś(-aś) przynajmniej
+mieć tęczowe pławiki albo
 
 23
 00:00:41,440 --> 00:00:44,660
@@ -111,13 +112,12 @@ O tak, szotgun'a.
 
 25
 00:00:46,790 --> 00:00:49,370
-But speaking of shotguns, you
-have to be asking what does
-// do korekty
+Tak a propos shotgun'ów,
+zapewne pytasz się
 26
 00:00:49,370 --> 00:00:51,070
-this have to do with zombies?
-// do korekty
+co to ma do Zombie?
+
 27
 00:00:51,070 --> 00:00:53,350
 Coż, to jest moment kiedy
@@ -130,8 +130,8 @@ przykładem dla początkujących
 
 29
 00:00:56,070 --> 00:00:58,510
-Jak kolwiek, to jest oklepane, 
-więc  potrzebujemy
+Jak kolwiek, jest on oklepany, 
+więc potrzebujemy
 
 30
 00:00:58,510 --> 00:00:59,810
@@ -144,12 +144,12 @@ spacerach zombie.
 
 32
 00:01:01,170 --> 00:01:03,700
-To wtedy gdy ludzie w dużych
-miastach przebierają się za zombie
+To tam gdzie ludzie w dużych
+miastach przebierają się za zombie,
 
 33
 00:01:03,700 --> 00:01:06,140
-spotykajaca w określonym miejscu
+spotykają się w określonym miejscu
 i przemierzają ulice jako
 
 34
@@ -165,7 +165,7 @@ całym kraju, i w Seatle
 00:01:09,350 --> 00:01:12,220
 mieli ponad 4.000 zombie
 przemierzających przez centrum.
-// do korekty
+
 37
 00:01:12,220 --> 00:01:14,750
 Ale znowu, co to ma wspólnego 
@@ -183,225 +183,230 @@ potrzebować sposobu żeby
 
 40
 00:01:18,820 --> 00:01:20,670
-powiadomić znajomych zombie
-o tym.
+powiedzieć o tym swoim
+znajomym zombie.
 
 41
 00:01:20,670 --> 00:01:22,410
-Zatem
+Zatem, aplikacja, którą
+będziemy budować
 
 
 42
 00:01:22,410 --> 00:01:25,920
-is Twitter for Zombies.
+to Twitter dla Zombie.
 
 43
 00:01:25,920 --> 00:01:27,290
-Makes perfect sense, right?
+Brzmi logicznie, prawda??
 
 44
 00:01:27,290 --> 00:01:28,980
-So how does this zombie
-thing work?
+Więc jak, to zombie, coś
+działa?
 
 45
 00:01:28,980 --> 00:01:30,670
-Well first, if you're not
-familiar with the Ruby
+Najpierw, jeśli nie jesteś
+zapoznany z językiem Ruby
+
 
 46
 00:01:30,670 --> 00:01:33,015
-language, head over to
-tryruby.org and follow through
+Udaj się na tryruby.org
+i ukończ tam poradnik
 
 47
 00:01:33,015 --> 00:01:34,400
-the Ruby tutorial there.
+zapoznający Cię z podstawami.
 
 48
 00:01:34,400 --> 00:01:36,660
-Then head back over to
-Railsforzombies.org and click
+Nastpępnie udaj się na
+Railsforzombies.org i wciśnij
 
 49
 00:01:36,660 --> 00:01:38,720
-the Start Course Now button
-on the homepage.
+przycisk "Start Course Now"
+na stronie tytułowej.
 
 50
 00:01:38,720 --> 00:01:41,770
-You'll be taken to the first
-video lesson for the course.
+Zostaniesz przeniesiony do
+pierwszej video-lekcji kursu.
 
 51
 00:01:41,770 --> 00:01:43,860
-You can skip to a chapter
-at the top if you
+Możesz przeskoczyć do wybranego
+rozdziału na górze jeśli
 
 52
 00:01:43,860 --> 00:01:44,690
-want to skip ahead.
+chcesz pominąc fragment.
 
 53
 00:01:44,690 --> 00:01:46,760
-And when you're done, just click
-on the big green button
+Kiedy skończysz, kliknij
+na duży zielony przycisk
 
 54
 00:01:46,760 --> 00:01:48,970
-to start the challenges where
-you'll have to do some coding
+aby rozpocząć wyzwania, gdzie
+będziesz musiał trochę kodować,
 
 55
 00:01:48,970 --> 00:01:50,150
-to get to level two.
+aby przejść na poziom drugi.
 
 56
 00:01:50,150 --> 00:01:52,590
-In the challenge interface,
-you'll see your total points,
+W interfejsie zadań zobaczysz
+sume wszystkich punktów,
 
 57
 00:01:52,590 --> 00:01:55,020
-the points you can earn from
-this challenge, and the
+punkty, które możesz zdobyć
+w tym zadaniu oraz
 
 58
 00:01:55,020 --> 00:01:56,240
-challenge instructions.
+instrukcje wyzwania.
 
 59
 00:01:56,240 --> 00:01:58,270
-To solve the challenge, you'll
-need to write some code using
+Aby ukończyć wyzwania, będziesz
+potrzebować napisać trochę
 
 60
 00:01:58,270 --> 00:02:00,440
-our in-browser code
-editor here.
+kodu używając edytora
+w przeglądarce.
 
 61
 00:02:00,440 --> 00:02:01,430
-If you don't get it
-right, you'll
+Jeśli nie wykonasz wyzwania
+prawidlowo, zobaczysz
 
 62
 00:02:01,430 --> 00:02:02,670
-see some error messages.
+komunikat z błędami.
 
 63
 00:02:02,670 --> 00:02:04,710
-And if you're stuck, you can
-take a look at some hints to
+A jeśli utkniesz, możesz
+spojrzeć na wskazówki, które
 
 64
 00:02:04,710 --> 00:02:06,620
-help keep pushing you forward.
+pomogą Ci przejść dalej.
 
 65
 00:02:06,620 --> 00:02:08,220
-Once you type in the correct
-answer, you'll get a
+Kieyd już wpiszesz prawidłową
+odpowiedź, zobaczysz
 
 66
 00:02:08,220 --> 00:02:10,289
-congratulations screen where
-you can continue on to the
+ekran z gratulacjami gdzie
+możesz kontynować do
 
 67
 00:02:10,289 --> 00:02:12,780
-next challenge or try
-some extra credit.
+następnego wyzwania albo
+spróbować dodatkowych zadań.
 
 68
 00:02:12,780 --> 00:02:14,550
-The extra credit isn't verified,
-it's just an
+Dodatkowe zadania nie są 
+sprawdzane, są po prostu
 
 69
 00:02:14,550 --> 00:02:16,780
-opportunity to practice
-your rails coding.
+możliwościa do potrenowania 
+programowaia rails.
 
 70
 00:02:16,780 --> 00:02:18,630
-Once you're ready to move on, on
-the left side of the screen
+Kiedy będziesz gotowy kontynuować,
+po lewej stronie ekranu
 
 71
 00:02:18,630 --> 00:02:20,015
-you can jump around to
-the other challenges.
+możesz przeskoczyć do innych
+wyzwań.
 
 72
 00:02:20,015 --> 00:02:22,530
-Where you watch the video
-lesson, learn the interface
+Obejrzeć ponownie video-lekcje,
+zapoznać się z skrótami
 
 73
 00:02:22,530 --> 00:02:24,370
-shortcuts, or download
-the video lesson
+klawiszowymi albo ściągnąć
+slajdy z video-lekcji
 
 74
 00:02:24,370 --> 00:02:26,000
-slides for later reference.
+do późniejszego wykorzystania.
 
 75
 00:02:26,000 --> 00:02:27,750
-Once you finish Rails for
-Zombies, you'll receive a
+Po zakończeniu Rails for
+Zombies, otrzymasz odznake
 
 76
 00:02:27,750 --> 00:02:30,810
-badge for your public profile,
-unlock the final video.
+na twój publiczny profil i
+odblokujesz końcowy filmik.
 
 77
 00:02:30,810 --> 00:02:33,470
-And finally, you'll receive $5
-in Code School cash that you
+I wreszcie, otrzymasz $5 w walucie
+Code School, które możesz
 
 78
 00:02:33,470 --> 00:02:36,300
-can use to enroll in Code School
-and get access to Rails
+wydać, zapisując się do Code School
+i otrzymać dostęp do Rails
 
 79
 00:02:36,300 --> 00:02:39,130
 for Zombies 2, Rails Testing for
-Zombies, and Testing with
+Zombies oraz Testing with
 
 80
 00:02:39,130 --> 00:02:41,460
-Rspec, along with all our other
-courses and Code TV
+Rspec, wraz z wszystkimi innymi
+kursami jak i screencastami
 
 81
 00:02:41,460 --> 00:02:42,570
-screen casts.
+Code TV.
 
 82
 00:02:42,570 --> 00:02:44,330
-Rails for Zombies is graciously
+Rails for Zombies jest uprzejmie
 
 83
 00:02:44,330 --> 00:02:45,640
-sponsored by New Relic.
+sponsorowane przez New Relic.
 
 84
 00:02:45,640 --> 00:02:47,685
-Providing rails developers the
-tools they need to monitor
+Zapewniające deweloperom Rails
+narzędzia, których potrzebują
 
 85
 00:02:47,685 --> 00:02:49,630
-their application performance.
+do kontrolowania wydjaności
+ich aplikacji.
 
 86
 00:02:49,630 --> 00:02:52,800
-Enough talk, it's time to learn
-some Rails for Zombies.
+Wystarczy gadania, nadszedł czas
+aby nauczyć się Rails for Zombies.
 
 87
 00:02:52,800 --> 00:02:55,333
+Tłumaczenie: Filip.Bartuzi.me
+Korekta: Krzysztof Kanabaj
