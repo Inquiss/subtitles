@@ -1,6 +1,6 @@
 1
 00:00:00,000 --> 00:00:02,300
-Zapewne zastanawiasz się,
+Zapewne zastanawiasz si,
 czym jest Rails for Zombies?
 
 2
@@ -11,11 +11,11 @@ jest to interaktywny kurs
 3
 00:00:04,680 --> 00:00:06,920
 uczący podstaw tworzenia
-aplikacji internetowych, przez
+aplikacji internetowych przez
 
 4
 00:00:06,920 --> 00:00:08,790
-przeglądarke, używając Ruby on Rails.
+przeglądarke używając Ruby on Rails.
 
 5
 00:00:08,790 --> 00:00:10,010
@@ -24,11 +24,11 @@ Ale jest też dosadniejsza odpowiedź.
 6
 00:00:10,010 --> 00:00:12,160
 W świecie praktycznej nauki,
-możemy korzystać z książek
+możemy korzystać zarówno z książek
 
 7
 00:00:12,160 --> 00:00:14,360
-jak i z screencast'ów, jednak
+jak i z screencastów, jednak
 żaden z nich nie jest
 
 8
@@ -37,17 +37,17 @@ interaktywny.
 
 9
 00:00:15,290 --> 00:00:17,120
-Ale chwila! Przecież to
-generacja Nintendo.
+Ale chwila! Przecież to jest
+generacja Nintendo!
 
 10
 00:00:17,120 --> 00:00:19,170
-Dajcie mi cholernego joystick'a.
+Dajcie mi tego cholernego joysticka.
 
 11
 00:00:19,170 --> 00:00:21,220
 Oprócz tego występują
-problemy z konfiguracją
+problemy z konfiguracją…
 
 12
 00:00:21,220 --> 00:00:23,380
@@ -61,8 +61,8 @@ znajdziesz sposób jak to popsuć
 
 14
 00:00:26,060 --> 00:00:27,910
-czasem nawet nie z
-Twojej winy.
+Czasem nawet nie z
+Twojej winy...
 
 15
 00:00:27,910 --> 00:00:29,900
@@ -76,12 +76,12 @@ zabawą a nie sprawiać wrażenie,
 
 17
 00:00:31,700 --> 00:00:32,980
-na głębokie wody.
+na gĹ‚Ä™bokie wody.
 
 18
 00:00:32,980 --> 00:00:34,550
 W momencie wejścia do
-wody, powinieneś(-aś)
+wody, powinieneś(-aś›)
 
 19
 00:00:34,550 --> 00:00:35,890
@@ -103,26 +103,26 @@ mieć tęczowe pławiki albo
 
 23
 00:00:41,440 --> 00:00:44,660
-być uzbrojonym w może pistolety
-albo może nawet w shotgun'a/
+być uzbrojonym może w pistolety
+albo może nawet w shotguna.
 
 24
 00:00:44,660 --> 00:00:46,790
-O tak, szotgun'a.
+O tak, szczególnie shotguna.
 
 25
 00:00:46,790 --> 00:00:49,370
-Tak a propos shotgun'ów,
-zapewne pytasz się
+Tak a propos shotgunów,
+zapewne zastanawiasz się,
 
 26
 00:00:49,370 --> 00:00:51,070
-co to ma do Zombie?
+co to ma wspólnego z Zombie?
 
 27
 00:00:51,070 --> 00:00:53,350
-Coż, to jest moment kiedy
-prezentujemy naszą aplikacje.
+Coż, to jest moment dla naszej
+przykładowej aplikacji.
 
 28
 00:00:53,350 --> 00:00:56,070
@@ -131,7 +131,7 @@ przykładem dla początkujących.
 
 29
 00:00:56,070 --> 00:00:58,510
-Jak kolwiek, jest on oklepany, 
+Mimo to, jest on oklepany, 
 więc potrzebujemy
 
 30
@@ -159,13 +159,13 @@ nieumarli.
 
 35
 00:01:06,960 --> 00:01:09,350
-Właściwie dzieje się to w
-całym kraju, i w Seatle
+Właściwie dzieje się to na całym
+świecie. Dla przykładu w Seatle
 
 36
 00:01:09,350 --> 00:01:12,220
 mieli ponad 4.000 zombie
-przemierzających przez centrum.
+przemierzających centrum.
 
 37
 00:01:12,220 --> 00:01:14,750
@@ -174,13 +174,13 @@ z Rails for Zombies?
 
 38
 00:01:14,750 --> 00:01:16,620
-Cóż, jeśli uczestniczych w
+Cóż, jeśli uczestniczysz w
 spacerach zombie i znajdziesz
 
 39
 00:01:16,620 --> 00:01:18,820
 przepyszny mózg, będziesz
-potrzebować sposobu żeby
+potrzebował sposobu żeby
 
 40
 00:01:18,820 --> 00:01:20,670
@@ -203,7 +203,7 @@ Brzmi logicznie, prawda??
 
 44
 00:01:27,290 --> 00:01:28,980
-Więc jak to, zombie coś,
+Więc jak to coś
 działa?
 
 45
@@ -224,12 +224,12 @@ zapoznający Cię z podstawami.
 48
 00:01:34,400 --> 00:01:36,660
 Nastpępnie udaj się na
-Railsforzombies.org i wciśnij
+Railsforzombies.org i wciĹ›nij
 
 49
 00:01:36,660 --> 00:01:38,720
 przycisk "Start Course Now"
-na stronie tytułowej.
+na stronie tytuĹ‚owej.
 
 50
 00:01:38,720 --> 00:01:41,770
@@ -239,11 +239,11 @@ pierwszej video-lekcji kursu.
 51
 00:01:41,770 --> 00:01:43,860
 Możesz przeskoczyć do wybranego
-rozdziału na górze jeśli
+rozdziału na górze jeżeli
 
 52
 00:01:43,860 --> 00:01:44,690
-chcesz pominąc dany fragment.
+chcesz pominąć dany fragment.
 
 53
 00:01:44,690 --> 00:01:46,760
@@ -252,7 +252,7 @@ na duży zielony przycisk
 
 54
 00:01:46,760 --> 00:01:48,970
-aby rozpocząć wyzwania, gdzie
+aby rozpoczć wyzwania, gdzie
 będziesz musiał trochę kodować,
 
 55
@@ -261,8 +261,8 @@ aby przejść na poziom drugi.
 
 56
 00:01:50,150 --> 00:01:52,590
-W interfejsie zadań zobaczysz
-sume wszystkich punktów,
+W interfejsie zadać zobaczysz
+sumę wszystkich punktów,
 
 57
 00:01:52,590 --> 00:01:55,020
@@ -286,7 +286,7 @@ w przeglądarce.
 61
 00:02:00,440 --> 00:02:01,430
 Jeśli nie wykonasz wyzwania
-prawidlowo, zobaczysz
+prawidłowo, zobaczysz
 
 62
 00:02:01,430 --> 00:02:02,670
@@ -318,12 +318,12 @@ spróbować dodatkowych zadań.
 
 68
 00:02:12,780 --> 00:02:14,550
-Dodatkowe zadania nie są 
+Dodatkowe zadania nie są
 sprawdzane, są po prostu
 
 69
 00:02:14,550 --> 00:02:16,780
-możliwościa do potrenowania 
+możliwością do potrenowania 
 programowaia rails.
 
 70
@@ -339,11 +339,11 @@ wyzwań.
 72
 00:02:20,015 --> 00:02:22,530
 Obejrzeć ponownie video-lekcje,
-zapoznać się z skrótami
+zapoznać siÄ™ z skrótami
 
 73
 00:02:22,530 --> 00:02:24,370
-klawiszowymi albo ściągnąć
+klawiszowymi albo ściągnięte
 slajdy z video-lekcji
 
 74
@@ -353,7 +353,7 @@ do późniejszego wykorzystania.
 75
 00:02:26,000 --> 00:02:27,750
 Po zakończeniu Rails for
-Zombies, otrzymasz odznake
+Zombies, otrzymasz odznakę
 
 76
 00:02:27,750 --> 00:02:30,810
@@ -399,12 +399,12 @@ narzędzia, których potrzebują
 
 85
 00:02:47,685 --> 00:02:49,630
-do kontrolowania wydjaności
+do kontrolowania wydajności
 ich aplikacji.
 
 86
 00:02:49,630 --> 00:02:52,800
-Wystarczy gadania, nadszedł czas
+Koniec gadania! NadszedĹ‚ czas
 aby nauczyć się Rails for Zombies.
 
 87
