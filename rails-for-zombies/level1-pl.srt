@@ -1,7 +1,7 @@
-﻿1
+1
 00:00:00,330 --> 00:00:01,890
 Cześć, jestem Gregg Pollack,
-i Wy
+a Wy
 
 2
 00:00:01,890 --> 00:00:03,620
@@ -14,7 +14,7 @@ i wnętrzności swe.
 
 4
 00:00:06,917 --> 00:00:10,813
-Nadszedł czas by przestać
+Nadszedł czas by zatrzymać się
 i pouczyć się Rails, bo
 
 5
@@ -66,7 +66,7 @@ zagłębić się w CRUD.
 
 14
 00:00:34,120 --> 00:00:35,810
-Zamierzamy rozmawiać o CRUD.
+O tym właśnie będziemy dzisiaj rozmawiać.
 
 15
 00:00:35,810 --> 00:00:38,880
@@ -91,7 +91,7 @@ na tym samym poziomie.
 19
 00:00:44,940 --> 00:00:48,220
 A więc, zamierzamy stworzyć
-Twitter dla Zombie.
+Twittera dla Zombie.
 
 20
 00:00:48,220 --> 00:00:49,920
@@ -99,7 +99,7 @@ To jest Twoja aplikacja.
 
 21
 00:00:49,920 --> 00:00:51,910
-Jeśli nie wiesz czemu, przejdź
+Jeśli nie wiesz dlaczego, przejdź
 na stronę tytułową
 
 22
@@ -132,7 +132,7 @@ trzy kolumny.
 
 28
 00:01:09,020 --> 00:01:11,090
-Następnie, powinniśmy nazwać
+Na początek, powinniśmy nazwać
 każdą z tych kolumn.
 
 29
@@ -178,7 +178,7 @@ wynik tego co chcemy
 
 38
 00:01:33,100 --> 00:01:34,540
-otrzymać spowrotem z
+otrzymać z powrotem z
 bazy danych.
 
 39
@@ -193,11 +193,11 @@ która wygląda jak to.
 41
 00:01:40,550 --> 00:01:42,920
 Teraz, powinieneś(-aś) być
-zapoznana czym hash jest ale
+zapoznana z hashem, ale jeśli nie pamiętasz
 
 42
 00:01:42,920 --> 00:01:44,430
-tutaj jest małe podsumowanie.
+to tutaj jest małe podsumowanie.
 
 43
 00:01:44,430 --> 00:01:47,942
@@ -240,16 +240,16 @@ danych i naszego wyzwania.
 51
 00:02:07,430 --> 00:02:08,800
 Więc mamy nasze wzywanie
-spowrotem.
+z powrotem.
 
 52
 00:02:08,800 --> 00:02:11,885
 Teraz, mam zamiar pokazać Ci
-faktyczne rozwiązanie kodu
+faktyczne rozwiązanie kodu,
 
 53
 00:02:11,885 --> 00:02:12,890
-jaki chcemy napsiać.
+którego chcemy stworzyć.
 
 54
 00:02:12,890 --> 00:02:16,730
@@ -268,12 +268,12 @@ nam 3, puts t[:status] da "I
 
 57
 00:02:23,990 --> 00:02:27,900
-just ate some delicious brains,"
-a puts t[:zombie] da
+just ate some delicious brains,",
+natomiast puts t[:zombie] da
 
 58
 00:02:27,900 --> 00:02:29,850
-spowrotem "Jim."
+z powrotem "Jim."
 
 59
 00:02:29,850 --> 00:02:33,470
@@ -319,11 +319,11 @@ chciałbym
 
 68
 00:02:53,130 --> 00:02:54,590
-abyś zwrócił uwagę.
+abyś zwrócił(-a) uwagę.
 
 69
 00:02:54,590 --> 00:02:59,330
-Zauważcie, że mamy duże T w
+Zauważ, że mamy duże T w
 'Tweet' w rozwiązaniu.
 
 70
@@ -415,7 +415,7 @@ alternatywną składnię.
 
 88
 00:03:52,550 --> 00:03:56,020
-Ale zanim to, zauważcie, że
+Ale wpierw, zauważcie, że
 nie ustawiamy ID na
 
 89
@@ -424,7 +424,7 @@ podanym obiekcie.
 
 90
 00:03:57,680 --> 00:04:00,280
-Dzieje się to, ponieważ Rails
+Dzieje się tak, ponieważ Rails
 same się tym zajmie za nas
 
 91
@@ -524,7 +524,7 @@ i następnie liczy.
 112
 00:04:47,450 --> 00:04:49,540
 Tak na prawde Rails wykona
-kwerende liczącą na  
+kwerendę liczącą na  
 
 113
 00:04:49,540 --> 00:04:51,260
@@ -547,7 +547,7 @@ Możemy ograniczyć ilość do 10.
 117
 00:04:56,800 --> 00:04:58,900
 Możemy powiedzieć: zwróć nam
-wszystkie zombie gdzie imie
+wszystkie zombie, gdzie imię
 
 118
 00:04:58,900 --> 00:05:00,380
@@ -584,12 +584,12 @@ atrybuty i przesłać je w hash'u
 
 125
 00:05:16,000 --> 00:05:18,580
-a nastpępnie zapisać je.
+a następnie zapisać je.
 
 126
 00:05:18,580 --> 00:05:21,730
 Możemy również wywoałać
-t.update_attributes, które nie
+t.update_attributes, które nie tylko
 
 127
 00:05:21,730 --> 00:05:26,540
@@ -599,7 +599,7 @@ zapisze je.
 128
 00:05:26,540 --> 00:05:29,460
 Następne jest usuwanie, ponieważ
-zombie lubią usuwać
+zombie lubią niszczyć
 
 129
 00:05:29,460 --> 00:05:31,490
@@ -607,8 +607,8 @@ rzeczy, szczególnie mózgi.
 
 130
 00:05:31,490 --> 00:05:34,830
-So as you saw before, we can
-find an item and destroy it.
+Więc, tak jak już widziałeś(-aś), 
+możemy znaleźć przedmiot i go usunąć.
 
 131
 00:05:34,830 --> 00:05:38,750
@@ -643,7 +643,7 @@ nauczyliśmy.
 137
 00:05:51,370 --> 00:05:53,790
 Więc idź i miej trochę zabawy
-z nowymi zombie znajomymi.
+z nowymi zombie-znajomymi.
 
 Translation Credits
 00:05:53,790 --> 00:05:57,790
