@@ -1,0 +1,651 @@
+﻿1
+00:00:00,330 --> 00:00:01,890
+Cześć, jestem Gregg Pollack,
+i Wy
+
+2
+00:00:01,890 --> 00:00:03,620
+oglądacie Rails for Zombies.
+
+3
+00:00:03,620 --> 00:00:06,917
+(ŚPIEWANIE) Odłóż mózg swój
+i wnętrzności swe.
+
+4
+00:00:06,917 --> 00:00:10,813
+Nadszedł czas by przestać
+i pouczyć się Rails, bo
+
+5
+00:00:10,813 --> 00:00:12,761
+coś nowego do złapania jest.
+
+6
+00:00:12,761 --> 00:00:14,110
+To Rails for Zombies
+przez Envy Labs.
+
+Translation Credits
+00:00:14,110--> 00:00:17,990
+Tłumaczenie: Filip.Bartuzi.me
+Korekta: Krzysztof Kanabaj
+
+7
+00:00:17,990 --> 00:00:19,730
+Aby to wideo miało sens,
+będziesz potrzebować
+
+8
+00:00:19,730 --> 00:00:22,120
+podstawowej znajomości z
+językiem Ruby.
+
+9
+00:00:22,120 --> 00:00:24,760
+Jeśli nie jesteś jeszcze
+zaznajomiony, zatrzymaj video i
+
+10
+00:00:24,760 --> 00:00:28,250
+udaj się na tryruby.org, ukończ
+poradnik i następnie wróć tu
+
+11
+00:00:28,250 --> 00:00:30,360
+i rozpocznij video.
+
+12
+00:00:30,360 --> 00:00:32,090
+A więc, w pierwszej części,
+zamierzamy
+
+13
+00:00:32,090 --> 00:00:34,120
+zagłębić się w CRUD.
+
+14
+00:00:34,120 --> 00:00:35,810
+Zamierzamy rozmawiać o CRUD.
+
+15
+00:00:35,810 --> 00:00:38,880
+Proszę o cierpliwość jeśli
+jesteś ekspertem w jednym
+
+16
+00:00:38,880 --> 00:00:40,770
+z tych języków albo w którymś
+z tych pojęć.
+
+17
+00:00:40,770 --> 00:00:42,700
+Przejdziemy do zaawansowanych 
+rzeczy już wkrótce, ale musimy
+
+18
+00:00:42,700 --> 00:00:44,940
+się upewnić, że każdy jest
+na tym samym poziomie.
+
+19
+00:00:44,940 --> 00:00:48,220
+A więc, zamierzamy stworzyć
+Twitter dla Zombie.
+
+20
+00:00:48,220 --> 00:00:49,920
+To jest Twoja aplikacja.
+
+21
+00:00:49,920 --> 00:00:51,910
+Jeśli nie wiesz czemu, przejdź
+na stronę tytułową
+
+22
+00:00:51,910 --> 00:00:52,770
+i obejrz tam intro.
+
+23
+00:00:52,770 --> 00:00:56,460
+Ale teraz, przejdźmy już do
+rzeczy.
+
+24
+00:00:56,460 --> 00:00:59,980
+Więc mamy tutaj naszą pierwszą
+tabelę z bazy danych.
+
+25
+00:00:59,980 --> 00:01:01,550
+Przypomina trochę arkusz
+kalkulacyjny.
+
+26
+00:01:01,550 --> 00:01:03,530
+Nazywamy ją 'tweets'.
+
+27
+00:01:03,530 --> 00:01:09,020
+Ma cztery wiersze oraz
+trzy kolumny.
+
+28
+00:01:09,020 --> 00:01:11,090
+Następnie, powinniśmy nazwać
+każdą z tych kolumn.
+
+29
+00:01:11,090 --> 00:01:13,220
+Pierwsza z nich to 'ID'.
+(numer identyfikacyjny)
+
+30
+00:01:13,220 --> 00:01:15,260
+Druga to 'status'.
+
+31
+00:01:15,260 --> 00:01:17,690
+A trzecia przedstawia 'zombie',
+
+32
+00:01:17,690 --> 00:01:20,840
+na przykład Ash, Bob, Jim.
+
+33
+00:01:20,840 --> 00:01:22,280
+To są nasze zombie.
+
+34
+00:01:22,280 --> 00:01:24,650
+Następnie, naszym pierwszym zombie
+wyzwaniem będzie
+
+35
+00:01:24,650 --> 00:01:28,270
+otrzymanie hash (tablicy mieszającej)
+tweet'ów z ID równym 3. 
+
+36
+00:01:28,270 --> 00:01:30,150
+Nie chcę teraz pokazać
+Wam rozwiązania.
+
+37
+00:01:30,150 --> 00:01:33,100
+To co chcę pokazać najpierw to
+wynik tego co chcemy
+
+38
+00:01:33,100 --> 00:01:34,540
+otrzymać spowrotem z
+bazy danych.
+
+39
+00:01:34,540 --> 00:01:36,780
+W tym przypadku, chcemy
+otrzymać hash
+
+40
+00:01:36,780 --> 00:01:38,030
+która wygląda jak to.
+
+41
+00:01:40,550 --> 00:01:42,920
+Teraz, powinieneś(-aś) być
+zapoznana czym hash jest ale
+
+42
+00:01:42,920 --> 00:01:44,430
+tutaj jest małe podsumowanie.
+
+43
+00:01:44,430 --> 00:01:47,942
+Więc, jeśli wykonamy puts b[:status],
+otrzymamy spowrotem "I just
+
+44
+00:01:47,942 --> 00:01:49,430
+ate some delicious brains."
+
+45
+00:01:49,430 --> 00:01:52,370
+Jeśli wykonamy puts b[:zombie],
+to otrzymamy "Jim."
+
+46
+00:01:52,370 --> 00:01:54,470
+A jeśli wykonamy przykład z dołu,
+to otrzymamy spowrotem
+
+47
+00:01:54,470 --> 00:01:57,690
+"Jim said I ate some
+delicious brains."
+
+48
+00:01:57,690 --> 00:02:02,850
+No bo wiecie, zombie uwielbiają
+jeść mózgi.
+
+49
+00:02:02,850 --> 00:02:04,730
+Wrócmy teraz do naszej
+tabeli z bazy
+
+50
+00:02:04,730 --> 00:02:07,430
+danych i naszego wyzwania.
+
+51
+00:02:07,430 --> 00:02:08,800
+Więc mamy nasze wzywanie
+spowrotem.
+
+52
+00:02:08,800 --> 00:02:11,885
+Teraz, mam zamiar pokazać Ci
+faktyczne rozwiązanie kodu
+
+53
+00:02:11,885 --> 00:02:12,890
+jaki chcemy napsiać.
+
+54
+00:02:12,890 --> 00:02:16,730
+Chcemy napisać
+t = Tweet.find(3)
+
+55
+00:02:16,730 --> 00:02:19,470
+A więc, to zamierza zwrócić
+nam ten hash i 
+
+56
+00:02:19,470 --> 00:02:23,990
+następnie użycie puts t[:id] da
+nam 3, puts t[:status] da "I
+
+57
+00:02:23,990 --> 00:02:27,900
+just ate some delicious brains,"
+a puts t[:zombie] da
+
+58
+00:02:27,900 --> 00:02:29,850
+spowrotem "Jim."
+
+59
+00:02:29,850 --> 00:02:33,470
+Jest też inny sposób w jaki
+możemy to napisać w Rails
+
+60
+00:02:33,470 --> 00:02:38,050
+Zamiast wykonać puts t[:id], możemy
+po prostu użyć puts t.id.
+
+61
+00:02:38,050 --> 00:02:42,790
+Puts t[:status], możemy użyć
+t.status, i tak dalej
+
+62
+00:02:42,790 --> 00:02:43,720
+i tak dalej.
+
+63
+00:02:43,720 --> 00:02:46,780
+Więc możemy użyć ich aby otrzymać
+nasze rozwiązanie zamiast
+
+64
+00:02:46,780 --> 00:02:48,620
+hash keys. (kluczy tabl. miesz.)
+
+65
+00:02:48,620 --> 00:02:50,140
+Tutaj jak nasza odpowiedź
+może wyglądać z
+
+66
+00:02:50,140 --> 00:02:51,610
+użyciem tego kodu.
+
+67
+00:02:51,610 --> 00:02:53,130
+Jest w Rails reguła, na którą
+chciałbym
+
+68
+00:02:53,130 --> 00:02:54,590
+abyś zwrócił uwagę.
+
+69
+00:02:54,590 --> 00:02:59,330
+Zauważcie, że mamy duże T w
+'Tweet' w rozwiązaniu.
+
+70
+00:02:59,330 --> 00:03:01,620
+I to co się dzieje na backend
+to zamiana wszystkich liter
+
+71
+00:03:01,620 --> 00:03:04,350
+na małe, przemiana na liczbę
+mnogą i następnie szukanie
+
+72
+00:03:04,350 --> 00:03:09,170
+tabeli zwanej 'tweets' w
+naszej bazie danych.
+
+73
+00:03:09,170 --> 00:03:12,080
+Nadszedł czas aby
+zająć się CRUD.
+
+74
+00:03:12,080 --> 00:03:17,280
+A przez CRUD, myślę: Create,
+Read, Update, oraz Delete.
+
+75
+00:03:17,280 --> 00:03:19,880
+Przyjrzyjmy się teraz jak możemy
+wykorzystać każde z nich
+
+76
+00:03:19,880 --> 00:03:21,780
+w naszej aplikacji Rails.
+
+77
+00:03:21,780 --> 00:03:24,920
+Po pierwsze, w Create,
+wykonujemy Tweet.new
+
+78
+00:03:24,920 --> 00:03:27,400
+Możemy następnie ustawić status
+i wywołać t.save
+
+79
+00:03:27,400 --> 00:03:29,550
+aby zapisać przedmiot.
+
+80
+00:03:29,550 --> 00:03:33,230
+Dla odczytu (Read), wykonujemy
+Tweet.find(3), dokładnie
+
+81
+00:03:33,230 --> 00:03:34,800
+jak przed chwilą.
+
+82
+00:03:34,800 --> 00:03:37,250
+Dla aktualzacji (Update),
+znajdziemy tweet'a
+
+83
+00:03:37,250 --> 00:03:41,070
+Następnie ustawimy wartości
+na nim i zapiszemy go.
+
+84
+00:03:41,070 --> 00:03:44,850
+A dla usuwania (Delete), szukamy
+tweet'a i wywołujemy t.destroy
+
+85
+00:03:44,850 --> 00:03:47,460
+aby usunąć go z naszej
+bazy danych.
+
+86
+00:03:47,460 --> 00:03:49,480
+Przyjrzymy się teraz każdemu
+z nich trochę bardziej
+
+87
+00:03:49,480 --> 00:03:52,550
+szczegółowo i pokażę Wam
+alternatywną składnię.
+
+88
+00:03:52,550 --> 00:03:56,020
+Ale zanim to, zauważcie, że
+nie ustawiamy ID na
+
+89
+00:03:56,020 --> 00:03:57,680
+podanym obiekcie.
+
+90
+00:03:57,680 --> 00:04:00,280
+Dzieje się to, ponieważ Rails
+same się tym zajmie za nas
+
+91
+00:04:00,280 --> 00:04:02,350
+i prawidłowo zwiększy ID oraz
+
+92
+00:04:02,350 --> 00:04:04,220
+umieści je w bazie danych.
+
+93
+00:04:04,220 --> 00:04:07,240
+Inną drogą stworzenia nowego
+tweet'a jest po prostu przesłanie
+
+94
+00:04:07,240 --> 00:04:10,730
+atrybutów, które chcemy ustawić, 
+w hash'u.
+
+95
+00:04:10,730 --> 00:04:12,700
+Następnie możemy je zapisać.
+
+96
+00:04:12,700 --> 00:04:15,520
+Mogliśmy również napisać to
+wszystko w jednej linii używając
+
+97
+00:04:15,520 --> 00:04:16,649
+Tweet.create.
+
+98
+00:04:16,649 --> 00:04:19,269
+Spowoduje to ustawienie tych
+atrybutów
+
+99
+00:04:19,269 --> 00:04:23,190
+i zapisanie obiektu.
+
+100
+00:04:23,190 --> 00:04:26,270
+Dla odczytu (Read), jest sporo 
+sposobów aby odczytać dane
+
+101
+00:04:26,270 --> 00:04:27,610
+z bazy danych
+
+102
+00:04:27,610 --> 00:04:30,550
+Możemy odcztać szczególny
+przedmiot przez numer ID.
+
+103
+00:04:30,550 --> 00:04:34,110
+Możemy odszukać grono przedmiotów,
+które będą zwrócone w array (tablicy).
+
+104
+00:04:34,110 --> 00:04:35,530
+Możemy odszukać pierwszy.
+
+105
+00:04:35,530 --> 00:04:37,160
+Możemy odszukać ostatni.
+
+106
+00:04:37,160 --> 00:04:38,840
+Możemy odszukać wszystkie.
+
+107
+00:04:38,840 --> 00:04:40,160
+Możemy je policzyć.
+
+108
+00:04:40,160 --> 00:04:42,520
+I interesującą sprawą o liczeniu
+jest to, że rzeczywiście
+
+109
+00:04:42,520 --> 00:04:43,980
+jest to robione w
+prawidłowy sposób.
+
+110
+00:04:43,980 --> 00:04:45,930
+Rails nie udaje się do bazy danych,
+pobiera wszystko z niej
+
+111
+00:04:45,930 --> 00:04:47,450
+i następnie liczy.
+
+112
+00:04:47,450 --> 00:04:49,540
+Tak na prawde Rails wykona
+kwerende liczącą na  
+
+113
+00:04:49,540 --> 00:04:51,260
+bazie danych i zwróci
+daną liczbę.
+
+114
+00:04:51,260 --> 00:04:53,670
+Możemy również otrzymać wszystkie
+zombie i posortować je
+
+115
+00:04:53,670 --> 00:04:54,900
+według imienia.
+
+116
+00:04:54,900 --> 00:04:56,800
+Możemy ograniczyć ilość do 10.
+
+117
+00:04:56,800 --> 00:04:58,900
+Możemy powiedzieć: zwróć nam
+wszystkie zombie gdzie imie
+
+118
+00:04:58,900 --> 00:05:00,380
+równa się Ash.
+
+119
+00:05:00,380 --> 00:05:02,620
+Albo możemy połączyć wszystkie
+metody razem aby wykonać coś
+
+120
+00:05:02,620 --> 00:05:06,410
+co nazywamy method chaining.
+(łańcuchowanie metod)
+
+121
+00:05:06,410 --> 00:05:08,230
+Następnie jest aktualzacja (Update).
+
+122
+00:05:08,230 --> 00:05:10,510
+Jak pamiętasz, z aktualizacją,
+znajdujemy tweet'a, ustawiamy
+
+123
+00:05:10,510 --> 00:05:11,940
+coś i następnie
+zapisujemy.
+
+124
+00:05:11,940 --> 00:05:16,000
+Alternatywnie możemy ustawić
+atrybuty i przesłać je w hash'u
+
+125
+00:05:16,000 --> 00:05:18,580
+a nastpępnie zapisać je.
+
+126
+00:05:18,580 --> 00:05:21,730
+Możemy również wywoałać
+t.update_attributes, które nie
+
+127
+00:05:21,730 --> 00:05:26,540
+ustawi atrybuty ale również
+zapisze je.
+
+128
+00:05:26,540 --> 00:05:29,460
+Następne jest usuwanie, ponieważ
+zombie lubią usuwać
+
+129
+00:05:29,460 --> 00:05:31,490
+rzeczy, szczególnie mózgi.
+
+130
+00:05:31,490 --> 00:05:34,830
+So as you saw before, we can
+find an item and destroy it.
+
+131
+00:05:34,830 --> 00:05:38,750
+Możemy również napisać to
+w jednej linii.
+
+132
+00:05:38,750 --> 00:05:41,930
+I na koniec, jeśli chcesz 
+usunąć wszystkie tweety,
+
+133
+00:05:41,930 --> 00:05:45,830
+możemy wywołać, po prostu,
+Tweet.destroy_all
+
+134
+00:05:45,830 --> 00:05:47,460
+Więc mamy już osiągniete
+Zombie Lab 1.
+
+135
+00:05:47,460 --> 00:05:49,950
+To miejsce gdzie zaczynasz
+kodować i wdrażać trochę
+
+136
+00:05:49,950 --> 00:05:51,370
+rzeczy, których się
+nauczyliśmy.
+
+137
+00:05:51,370 --> 00:05:53,790
+Więc idź i miej trochę zabawy
+z nowymi zombie znajomymi.
+
+Translation Credits
+00:05:53,790 --> 00:05:57,790
+Tłumaczenie: Filip.Bartuzi.me
+Korekta: Krzysztof Kanabaj
